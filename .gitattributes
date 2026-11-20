@@ -1,0 +1,5 @@
+# shell scripts run in bash (also inside Linux containers): always LF,
+# even on Windows, or bash fails with "$'\r': command not found"
+*.sh text eol=lf
+# cmd.exe expects CRLF in batch files
+*.bat text eol=crlf

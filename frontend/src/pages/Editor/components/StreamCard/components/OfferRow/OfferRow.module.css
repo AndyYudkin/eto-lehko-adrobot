@@ -1,0 +1,95 @@
+.first,
+.last {
+  padding-left: var(--space-5);
+  padding-right: var(--space-5);
+}
+
+.last {
+  text-align: right;
+}
+
+tr td {
+  padding-top: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border-soft);
+}
+
+.id {
+  color: var(--color-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.tagRemoved {
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.tagRemoved {
+  color: var(--color-muted);
+  background: var(--color-tag-bg);
+}
+
+.removed {
+  background: var(--color-row-removed);
+  color: var(--color-muted-soft);
+}
+
+.struck {
+  text-decoration: line-through;
+}
+
+.zero {
+  font-variant-numeric: tabular-nums;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.value {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  min-width: 40px;
+}
+
+.pin,
+.pinOn {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: var(--radius-control);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pin {
+  background: none;
+  color: var(--color-icon);
+}
+
+.pinOn {
+  background: var(--color-chip-bg);
+  color: var(--color-accent);
+}
+
+.remove,
+.bringBack {
+  height: 36px;
+  padding: 0 var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-control);
+  background: var(--color-surface);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.bringBack {
+  color: var(--color-accent);
+}

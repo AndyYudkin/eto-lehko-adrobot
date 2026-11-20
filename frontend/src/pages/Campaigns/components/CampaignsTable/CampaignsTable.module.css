@@ -1,0 +1,79 @@
+.box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  min-width: 720px;
+}
+
+.table th {
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+  color: var(--color-muted);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.table td {
+  padding: var(--space-4);
+  border-bottom: 1px solid var(--color-border-soft);
+}
+
+.table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.table .first {
+  padding-left: var(--space-5);
+}
+
+.table .last {
+  padding-right: var(--space-5);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.action {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  min-height: var(--control-height);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.action:hover {
+  color: var(--color-accent-hover);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.message {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.error {
+  margin: 0;
+  color: var(--color-error);
+}

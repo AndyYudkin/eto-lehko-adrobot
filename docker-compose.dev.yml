@@ -1,0 +1,10 @@
+# Development only: exposes Postgres and the backend to the host for
+# pytest and `npm run dev`. Enable it with COMPOSE_FILE in .env
+# (see .env.example) or `docker compose -f docker-compose.yml -f docker-compose.dev.yml`.
+services:
+  db:
+    ports:
+      - '5432:5432'
+  backend:
+    ports:
+      - '8000:8000'

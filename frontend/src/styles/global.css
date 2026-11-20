@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+input,
+button {
+  font: inherit;
+  font-size: var(--font-size-base);
+}
+
+input {
+  height: var(--control-height);
+  border: 1px solid var(--color-input-border);
+  border-radius: var(--radius-control);
+  padding: 0 var(--space-3);
+  color: var(--color-text);
+}
+
+button {
+  cursor: pointer;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+}

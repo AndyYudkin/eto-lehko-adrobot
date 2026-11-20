@@ -1,0 +1,42 @@
+:root {
+  --color-accent: #1f4fc9;
+  --color-accent-hover: #163c9c;
+  --color-bg: #f4f5f7;
+  --color-surface: #ffffff;
+  --color-border: #e3e5ea;
+  --color-border-soft: #f0f1f4;
+  --color-input-border: #c9cdd5;
+  --color-text: #16181d;
+  --color-muted: #5a5f6b;
+  --color-on-accent: #ffffff;
+  --color-error: #c0392b;
+  --color-chip-bg: #eef2fc;
+  --color-chip-text: #1f3f95;
+  --color-panel-bg: #f8f9fa;
+  --color-icon: #8a8f9a;
+  --color-muted-soft: #6b707c;
+  --color-row-removed: #fafafb;
+  --color-tag-bg: #edeef1;
+  --color-warn-bg: #fffdf2;
+  --color-warn-border: #e9d98a;
+  --color-warn-divider: #efe4ae;
+  --color-warn-text: #8a5a00;
+  --color-overlay: rgba(22, 24, 29, 0.45);
+  --shadow-dialog: 0 20px 48px rgba(22, 24, 29, 0.25);
+
+  --radius-control: 8px;
+  --radius-card: 12px;
+  --radius-dialog: 14px;
+  --radius-chip: 6px;
+  --control-height: 44px;
+
+  --font-family: Inter, system-ui, sans-serif;
+  --font-size-base: 15px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+}
